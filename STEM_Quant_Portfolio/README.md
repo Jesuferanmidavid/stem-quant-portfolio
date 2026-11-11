@@ -108,3 +108,37 @@ It also highlights the importance of distinguishing statistical significance fro
 ## Project Notebook
 
 `STEM_Quant_SME_Credit_Risk_Analysis.ipynb`
+## Project 3: SME Revenue Prediction Using Regression and Machine Learning
+
+**Notebook:** `STEM_Quant_SME_Revenue_Prediction.ipynb`
+
+### Project Overview
+Developed a Python-based predictive modelling project using a synthetic dataset of 500 SMEs to estimate monthly business revenue.
+
+### Methods and Techniques
+- Exploratory data analysis and data quality assessment
+- Correlation analysis
+- Multiple Linear Regression
+- Random Forest Regression
+- Train-test splitting
+- Five-fold cross-validation
+- Model performance comparison
+- Feature importance analysis
+- Residual diagnostics and Q-Q plot
+
+### Key Results
+
+| Metric | Multiple Linear Regression |
+|---|---:|
+| Test MAE | ₦50,024.36 |
+| Test RMSE | ₦66,302.14 |
+| Test R² | 0.8831 |
+| Mean CV RMSE | ₦64,616.47 |
+
+Multiple Linear Regression outperformed Random Forest Regression on the held-out test dataset.
+
+### Tools
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn and SciPy.
+
+### Limitation
+The dataset is synthetic and generated using a predefined revenue equation. Results demonstrate predictive modelling techniques and should not be interpreted as causal evidence or verified real-world SME performance.
