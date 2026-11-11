@@ -142,3 +142,25 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn and SciPy.
 
 ### Limitation
 The dataset is synthetic and generated using a predefined revenue equation. Results demonstrate predictive modelling techniques and should not be interpreted as causal evidence or verified real-world SME performance.
+## Project 4: Time Series Analysis and Forecasting Using Python
+
+**Overview:** Analysis and forecasting of 60 months of synthetic SME revenue data using statistical time series techniques.
+
+**Objectives:**
+- Examine revenue trends and annual seasonality.
+- Apply moving averages and seasonal decomposition.
+- Test stationarity using the Augmented Dickey-Fuller test.
+- Fit and compare ARIMA and SARIMA forecasting models.
+- Evaluate forecast accuracy and residual autocorrelation.
+
+**Methods:** Time series visualization, 12-month moving averages, additive decomposition, ADF testing, first-order differencing, ACF/PACF analysis, ARIMA, SARIMA, seasonal-naive forecasting, MAE, RMSE, and Ljung–Box testing.
+
+**Best-performing model:** ARIMA(0,1,0) with drift.
+
+**Forecast performance:**
+- Test MAE: ₦35,927.56
+- Test RMSE: ₦42,943.68
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Scikit-learn.
+
+**Data limitation:** The dataset is synthetic and the results demonstrate statistical methods rather than real-world SME forecasting performance.
