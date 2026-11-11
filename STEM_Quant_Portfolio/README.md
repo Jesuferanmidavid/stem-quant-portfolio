@@ -81,7 +81,28 @@ The fitted models are exploratory and should not be deployed for real credit dec
 ## Conclusion
 
 This project demonstrates practical application of data preparation, exploratory analysis, statistical inference, econometric modelling, model diagnostics, and quantitative interpretation using Python.
+---
 
+## Project 2: Statistical Inference and Hypothesis Testing Using Python
+
+**Objective:** Analyse SME revenue performance and examine differences between trained and untrained businesses using statistical inference.
+
+**Tools:** Python, Pandas, NumPy, SciPy, Statsmodels, Matplotlib and Seaborn.
+
+**Methods demonstrated:**
+- Descriptive statistics and confidence intervals
+- Independent and paired-sample t-tests
+- Welch's t-test and confidence interval for mean differences
+- Chi-square tests of independence
+- One-way ANOVA and diagnostic testing
+- Effect-size analysis using Cohen's d, eta-squared and Cramér's V
+- Data-quality checks and statistical interpretation
+
+**Key finding:** The synthetic sample showed a statistically significant difference in mean post-training revenue between the trained and untrained groups (Welch's t-test, p = 0.0461).
+
+**Important limitation:** The dataset is synthetic, and group-level revenue increments were programmed into the data generator. The results demonstrate statistical methods and interpretation, not evidence that training caused revenue growth in real businesses.
+
+**Notebook:** `STEM_Quant_Statistical_Inference.ipynb`
 It also highlights the importance of distinguishing statistical significance from predictive reliability and communicating model limitations responsibly.
 
 ## Project Notebook
